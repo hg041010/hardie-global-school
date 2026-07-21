@@ -65,7 +65,7 @@ function Router() {
       <ScrollToTop />
 
       <Switch>
-        <Route path="/" component={Home} />
+        <Route path={/^\/?$/} component={Home} />
 
         {/* About Pages */}
         <Route path="/about" component={About} />
