@@ -1,0 +1,19 @@
+import { Palette,Brush,Image as ImageIcon,Users,Search,BookOpen,PenLine,Lightbulb } from "lucide-react";
+import type { SubjectData } from "@/data/subjects/types";
+export const secondaryArtSubject: SubjectData={id:"art",name:"미술",englishName:"Art",subtitle:"Creativity · Design · Expression",
+heroDescription:(<>상상력을 작품으로,<br className="hidden sm:block"/>생각을 예술로 표현합니다.</>),
+heroImage:"https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1920&q=88",
+introEyebrow:"Secondary Art Education",introTitle:(<>관찰하고 표현하며<br/>창의성을 키웁니다</>),
+introParagraphs:["미술은 자신의 생각과 감정을 다양한 방식으로 표현하는 교과입니다.","관찰과 표현, 디자인과 디지털 아트를 함께 경험합니다.","학생들은 작품을 제작하고 감상하며 미적 감수성을 기릅니다."],
+quote:(<>예술은 세상을 바라보는<br/>또 하나의 언어입니다.</>),quoteDescription:"관찰·표현·감상을 균형 있게 경험합니다.",tags:["드로잉","디자인","회화","조형","디지털","감상"],
+competenciesTitle:"중·고등 미술 교육의 핵심 역량",competenciesDescription:"창의적 표현과 시각적 사고를 기릅니다.",
+competencies:[{number:"01",icon:Palette,title:"창의성",description:"새로운 아이디어를 표현합니다."},{number:"02",icon:Brush,title:"표현",description:"다양한 재료를 활용합니다."},{number:"03",icon:ImageIcon,title:"감상",description:"작품을 이해하고 해석합니다."},{number:"04",icon:Users,title:"협업",description:"프로젝트를 함께 수행합니다."}],
+learningAreasTitle:"주요 학습 영역",learningAreasDescription:"드로잉부터 디자인까지 폭넓게 학습합니다.",
+learningAreas:[{icon:Brush,eyebrow:"Drawing",title:"드로잉",description:"기초 표현",points:["관찰","명암","구도","색채"]},{icon:Palette,eyebrow:"Painting",title:"회화",description:"다양한 표현",points:["수채","아크릴","혼합","표현"]},{icon:Lightbulb,eyebrow:"Design",title:"디자인",description:"문제 해결",points:["포스터","브랜딩","타이포","UI"]},{icon:ImageIcon,eyebrow:"Digital Art",title:"디지털 아트",description:"디지털 창작",points:["일러스트","그래픽","영상","편집"]}],
+gradeSectionEyebrow:"Grade-Level Curriculum",gradeSectionTitle:"학년별 주요 교육사항",gradeSectionDescription:"기초 표현부터 창작 프로젝트까지",
+gradeDetails:[{grade:"7학년",title:"기초 표현",description:"관찰",subjects:["선","명암"],activities:["스케치","채색"]},{grade:"8학년",title:"색채",description:"색",subjects:["색채"],activities:["포스터"]},{grade:"9학년",title:"디자인",description:"기초 디자인",subjects:["구성"],activities:["브랜딩"]},{grade:"10학년",title:"회화",description:"심화",subjects:["회화"],activities:["작품"]},{grade:"11학년",title:"디지털",description:"디지털 아트",subjects:["그래픽"],activities:["제작"]},{grade:"12학년",title:"포트폴리오",description:"종합",subjects:["창작"],activities:["전시"]}],
+featureEyebrow:"Creative Studio",featureTitle:(<>생각을 그리고<br/>세상과 나눕니다</>),featureDescription:"미술은 자신만의 시각을 발견하는 과정입니다.",featureImage:"https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=88",featureImageAlt:"미술 수업",featureBadge:"Create",featureBadgeSubtitle:"Observe • Design • Express",featureItems:[{title:"창작",description:"자유로운 표현"},{title:"디자인",description:"문제 해결"},{title:"전시",description:"작품 공유"}],
+processTitle:"중·고등 미술 수업의 배움 과정",processDescription:"관찰하고 구상하여 작품으로 완성합니다.",process:[{number:"01",icon:Search,title:"관찰",description:"아이디어 찾기"},{number:"02",icon:BookOpen,title:"구상",description:"스케치"},{number:"03",icon:Brush,title:"제작",description:"표현"},{number:"04",icon:PenLine,title:"감상",description:"공유와 피드백"}],
+growthTitle:(<>미술을 통해<br/>창의성을 키웁니다</>),growthDescription:"학생들은 자신만의 시각으로 세상을 표현합니다.",growthHighlight:"관찰하고 표현하며 성장하는 창작자가 됩니다.",growthPoints:["창의적 사고","표현력","미적 감수성","협업","자신감"],
+nextSubjectId:"bible",nextSubjectName:"성경",backLink:"/curriculum/middle-high",backText:"중·고등 교과목으로 돌아가기",backOverviewText:"중·고등 교과목 전체",subjectBasePath:"/curriculum/middle-high/subjects",
+theme:{accent:"#ec4899",accentDark:"#db2777",accentLight:"#f472b6",accentPale:"#fdf2f8",accentBorder:"#fbcfe8",heroFrom:"#500724",heroVia:"#9d174d",heroTo:"#ec4899",darkSection:"#4a044e",darkSectionSoft:"#831843",labelText:"#fbcfe8"}};

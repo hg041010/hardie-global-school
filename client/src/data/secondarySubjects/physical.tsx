@@ -1,0 +1,19 @@
+import { Dumbbell,HeartPulse,Trophy,Users,Search,BookOpen,PenLine,Activity } from "lucide-react";
+import type { SubjectData } from "@/data/subjects/types";
+export const secondaryPhysicalSubject: SubjectData={id:"physical-education",name:"체육",englishName:"Physical Education",subtitle:"Health · Challenge · Teamwork",
+heroDescription:(<>몸과 마음을 건강하게,<br className="hidden sm:block"/>함께 성장하는 체육입니다.</>),
+heroImage:"https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1920&q=88",
+introEyebrow:"Secondary Physical Education",introTitle:(<>도전하고 협력하며<br/>건강한 삶을 배웁니다</>),
+introParagraphs:["체육은 신체 활동을 통해 건강한 생활 습관을 기르는 교과입니다.","학생들은 스포츠와 다양한 활동을 경험하며 협력과 배려를 배웁니다.","도전 정신과 스포츠맨십을 바탕으로 평생 건강을 실천합니다."],
+quote:(<>건강한 몸과 마음은<br/>평생의 자산입니다.</>),quoteDescription:"운동을 통해 건강과 인성을 함께 기릅니다.",tags:["건강","협력","도전","스포츠","체력","리더십"],
+competenciesTitle:"중·고등 체육 교육의 핵심 역량",competenciesDescription:"건강한 생활과 협력 능력을 함께 기릅니다.",
+competencies:[{number:"01",icon:HeartPulse,title:"건강",description:"건강한 생활 습관"},{number:"02",icon:Dumbbell,title:"기초 체력",description:"체력 향상"},{number:"03",icon:Users,title:"협력",description:"팀워크와 배려"},{number:"04",icon:Trophy,title:"도전",description:"목표를 향한 성장"}],
+learningAreasTitle:"주요 학습 영역",learningAreasDescription:"기초 체력부터 스포츠 활동까지 균형 있게 경험합니다.",
+learningAreas:[{icon:HeartPulse,eyebrow:"Health",title:"건강",description:"건강 관리",points:["체력","영양","생활습관","안전"]},{icon:Activity,eyebrow:"Fitness",title:"체력",description:"기초 체력",points:["근력","유산소","유연성","균형"]},{icon:Users,eyebrow:"Sports",title:"스포츠",description:"팀 스포츠",points:["축구","농구","배드민턴","배구"]},{icon:Trophy,eyebrow:"Challenge",title:"도전",description:"개인 도전",points:["육상","기록","목표","성취"]}],
+gradeSectionEyebrow:"Grade-Level Curriculum",gradeSectionTitle:"학년별 주요 교육사항",gradeSectionDescription:"건강과 스포츠 활동을 단계적으로 경험합니다.",
+gradeDetails:[{grade:"7학년",title:"기초 체력",description:"기본 운동",subjects:["체력"],activities:["스트레칭"]},{grade:"8학년",title:"협동",description:"팀 스포츠",subjects:["축구"],activities:["게임"]},{grade:"9학년",title:"도전",description:"기록 향상",subjects:["육상"],activities:["측정"]},{grade:"10학년",title:"전략",description:"경기 이해",subjects:["전술"],activities:["분석"]},{grade:"11학년",title:"심화",description:"리더십",subjects:["협력"],activities:["운영"]},{grade:"12학년",title:"평생 체육",description:"건강 실천",subjects:["운동계획"],activities:["포트폴리오"]}],
+featureEyebrow:"Healthy Life",featureTitle:(<>몸을 움직이며<br/>함께 성장합니다</>),featureDescription:"체육은 경쟁보다 성장과 협력을 중요하게 생각합니다.",featureImage:"https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=88",featureImageAlt:"체육 수업",featureBadge:"Move Together",featureBadgeSubtitle:"Health • Teamwork • Growth",featureItems:[{title:"건강",description:"생활 습관"},{title:"협력",description:"팀워크"},{title:"도전",description:"목표 달성"}],
+processTitle:"중·고등 체육 수업의 배움 과정",processDescription:"배우고 연습하며 함께 성장합니다.",process:[{number:"01",icon:Search,title:"이해",description:"규칙 배우기"},{number:"02",icon:BookOpen,title:"연습",description:"기초 익히기"},{number:"03",icon:Users,title:"협력",description:"팀 활동"},{number:"04",icon:PenLine,title:"성찰",description:"건강 관리"}],
+growthTitle:(<>체육을 통해<br/>건강한 삶을 살아갑니다</>),growthDescription:"학생들은 평생 건강의 기초를 마련합니다.",growthHighlight:"건강과 협력을 실천하는 사람으로 성장합니다.",growthPoints:["건강한 생활","협력","도전","책임감","자기관리"],
+nextSubjectId:"bible",nextSubjectName:"성경",backLink:"/curriculum/middle-high",backText:"중·고등 교과목으로 돌아가기",backOverviewText:"중·고등 교과목 전체",subjectBasePath:"/curriculum/middle-high/subjects",
+theme:{accent:"#ef4444",accentDark:"#dc2626",accentLight:"#f87171",accentPale:"#fef2f2",accentBorder:"#fecaca",heroFrom:"#450a0a",heroVia:"#991b1b",heroTo:"#ef4444",darkSection:"#450a0a",darkSectionSoft:"#7f1d1d",labelText:"#fecaca"}};
