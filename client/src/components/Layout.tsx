@@ -4,6 +4,7 @@ import { Menu, X, MapPin, ChevronRight, ArrowUp, Phone, Mail } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import DropdownMenu from "@/components/DropdownMenu";
 import { navigationItems, SubMenuItem } from "@/const/navigation";
+import hadiLogo from "@/assets/hadi-logo.png";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -45,11 +46,10 @@ export default function Layout({ children }: LayoutProps) {
           <Link href="/">
             <div className="flex items-center gap-2.5 cursor-pointer group flex-shrink-0 w-fit transition-transform duration-300 hover:scale-[1.03]">
               <img
-                src="/images/hadi-logo.png"
+                src={hadiLogo}
                 alt="하디글로벌스쿨 로고"
-                className="w-[56px] h-[56px] object-contain"
+                className="h-14 w-14 object-contain bg-white/95 p-2 rounded-xl shadow-md"
               />
-
               <div className="leading-tight whitespace-nowrap">
                 <div className="text-[13px] font-bold text-slate-700">
                   대안교육기관
@@ -156,7 +156,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="md:col-span-5 flex flex-col gap-6">
               <div className="flex items-center gap-4">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/hadi-logo.png`}
+                  src={hadiLogo}
                   alt="하디글로벌스쿨 로고"
                   className="h-14 w-14 object-contain bg-white/95 p-2 rounded-xl shadow-md"
                 />
