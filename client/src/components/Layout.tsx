@@ -156,7 +156,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="md:col-span-5 flex flex-col gap-6">
               <div className="flex items-center gap-4">
                 <img
-                  src="/images/hadi-logo.png"
+                  src={`${import.meta.env.BASE_URL}images/hadi-logo.png`}
                   alt="하디글로벌스쿨 로고"
                   className="h-14 w-14 object-contain bg-white/95 p-2 rounded-xl shadow-md"
                 />
