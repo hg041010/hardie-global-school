@@ -48,7 +48,7 @@ export default function Layout({ children }: LayoutProps) {
               <img
                 src={hadiLogo}
                 alt="하디글로벌스쿨 로고"
-                className="h-20 w-20 object-contain"
+                className="h-16 w-16 object-contain"
               />
               <div className="leading-tight whitespace-nowrap">
                 <div className="text-[13px] font-bold text-slate-700">
@@ -158,7 +158,7 @@ export default function Layout({ children }: LayoutProps) {
                 <img
                   src={hadiLogo}
                   alt="하디글로벌스쿨 로고"
-                  className="h-20 w-20 object-contain"
+                  className="h-16 w-16 object-contain"
                 />
                 <div className="flex flex-col">
                   <span className="font-serif text-xl font-bold tracking-tight text-white">
